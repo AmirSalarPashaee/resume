@@ -1,0 +1,31 @@
+
+
+.titless {
+    padding-top:100px;
+    display:flex;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    font-size: 50px;
+}
+
+
+.fulspage {
+    height: 160vh;
+    width: 100vw;
+
+
+}
+
+
+.skill{
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    align-items: center;
+    padding: 2cm;
+
+
+}

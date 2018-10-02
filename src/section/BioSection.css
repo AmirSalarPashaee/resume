@@ -1,0 +1,35 @@
+
+
+.title {
+    padding-top:100px;
+    font-size: 50px;  
+
+    display: flex;
+    flex:auto;
+    justify-content:center;
+    
+
+}
+
+.templates {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+
+
+}
+
+.contents {
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 30px;
+}
+
+
+
+.fullsspage {
+    height: 115vh;
+    width: 100vw;
+
+
+}

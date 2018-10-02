@@ -1,0 +1,26 @@
+
+.header {
+    display:flex;
+    flex: auto;
+    background-color: #222;
+    height: 15px;
+    padding: 20px;
+    color: white;
+    width: 97vw;
+
+  }
+  .header1 {
+    display:flex;
+    flex: auto;
+    
+  
+  }
+  .header3 {
+    padding-right:50px;
+  
+  }
+
+  .widths{
+
+    height: 1px;
+  }

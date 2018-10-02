@@ -1,0 +1,125 @@
+{
+  "God":[
+    {
+      "type": "card",
+      "content": {
+        "image": "image/allah.png"
+      }
+    }
+  ],
+    "title": "Hello, I'm AmirSalar " ,
+
+  "subtitle": "Engineer & Developer",
+  "links": {
+    "github": "https://github.com/AmirSalarPashaee",
+    "stackoverflow": "https://stackoverflow.com/story/amirsalar",
+    "linkdin": "https://ir.linkedin.com/in/amirsalar-pashaee-daryan-70a394147"
+  },
+  "section": [
+    {
+      "title": "About Me",
+      "items": [
+        {
+          "type": "p",
+          "content": " I love to learn. \n I've got my Bs Electrical Engineering's Degree in K.N.Toosi then I'm studying communication system in Sharif University. My interest researches are Wireless communication and Voice over LTE (VoLTE)   \n I like Mathematic & programming but I'm beginner SO I must learn a LOT. \n So Learn more and Less work :))"
+        }
+      
+      ]
+
+    },
+    {
+      "title": "Research Experiences",
+      "items": [
+        {
+              "title":"Mobile Networks",
+              "content": " I got familiar with standards and elements of Radio Access and core of LTE mobile Networks also I read papers about Flexible RAN and familiar with FAPI & NGFI. We set up Openair-CN and Openair-RAN on master and develop branches furthermore we examine NGFI and FAPI on develop mode so have familiar with how to config and set up OAI"
+        },
+            {
+              "title":"IP Multimedia Subsystem",
+              "content": " I got familiar with Next Generation Voice Networks and some protocols, such as SIP and h.323. We set up clearwater on seven VM and familiar with how to set up and config Clearwater open source's code  "
+            },
+            {
+              "title":"Adaptive Blind Equalization",
+              "content":"Simulation of Blind Adaptive Algorithm such as CMA, MCMA, DD-CMA for multipath channel with single-input single-output (SISO) and expand on channel with multiple-input multiple-output (MIMO) communication system (BSc project)"
+            },
+            {
+              "title":"Adaptive Beamforming Algorithms",
+              "content":"Adaptive Beamforming can recognize which angle is received jamming signal so changed the pattern and which one is desire signal. In this project we use LMS, NLMS, RLS, CMA algorithm and simulation on GUI in MATLAB"
+            }
+          ]
+        },
+              
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "image/python.png",
+            "title": "Python"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "image/JavaScript.png",
+            "title": "Javascript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "image/react.png",
+            "title": "React"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "image/c.png",
+            "title": "C"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "image/matlab.png",
+            "title": "Matlab"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "image/cuda.png",
+            "title": "CUDA C/C++"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "image/linux.png",
+            "title": "LINUX"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "image/wireShark.png",
+            "title": "WireShark"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "image/ns3.png",
+            "title": "ns-3"
+          }
+        }
+      ]
+    }
+  ],
+  "icons":{
+    "down":"image/darr.png"
+  }
+  
+}
