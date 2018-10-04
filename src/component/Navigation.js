@@ -7,22 +7,15 @@ import SnowStorm from "react-snowstorm";
 import ChangeColor from "./ChangeColor";
 import data from "../data.json";
 
-
 class Navigation extends Component {
-
-  transfer() {
-    this.changeColor.handleScroll();
-  }
-
   render() {
     return (
       <div>
         <Sticky top="#header" bottomBoundary="#content">
           <table className="header">
-            <th className="header1" onClick={this.transfer.bind(this)}>
-            Color
+            <th className="header1" onClick={this.props.changeColor}>
+              Color
             </th>
-            {console.log(data.God[0])}
             <Link
               activeClass="active"
               to="bio"
@@ -35,8 +28,7 @@ class Navigation extends Component {
               <th className="header3">About ME</th>
             </Link>
 
-
-<Link
+            <Link
               activeClass="active"
               to="research"
               spy={true}
@@ -45,11 +37,8 @@ class Navigation extends Component {
               duration={500}
               delay={0}
             >
-              <th className="header3" >
-                Research
-              </th>
+              <th className="header3">Research</th>
             </Link>
-
 
             <Link
               activeClass="active"
@@ -60,16 +49,10 @@ class Navigation extends Component {
               duration={500}
               delay={0}
             >
-              <th className="header3" onClick={() => console.log("salam")}>
-                Skills
-              </th>
+              <th className="header3">Skills</th>
             </Link>
           </table>
         </Sticky>
-        <ChangeColor
-          ref={changeColor => (this.changeColor = changeColor)}
-          className="widths"
-        />
       </div>
     );
   }

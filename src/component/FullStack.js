@@ -17,7 +17,7 @@ class FullStack extends Component {
     const { children } = this.props;
 
     return (
-      <div className={` ${this.props.className || ""} ${console.log(this.state)}`} >
+      <div className={` ${this.props.className || ""}`} >
 
         {children}
       </div>

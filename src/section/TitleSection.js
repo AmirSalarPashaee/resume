@@ -8,10 +8,9 @@ import { SocialIcon } from "react-social-icons";
 import GodLogo from "../component/GodName";
 import DownIcon from "../component/DownIcons";
 import FullStack from "../component/FullStack";
-import ChangeColor from "../component/ChangeColor";
+import SnowStorm from "react-snowstorm";
 
 
-import ReactDOM from "react-dom";
 import "./TitleSection.css";
 
 
@@ -19,7 +18,7 @@ class TitleSection extends Component {
   render() {
     return (
       <div>
-
+        {this.props.sn}
         <FullStack className="justify ">
           {data.God.map(eachSkill => {
             return <GodLogo skill={eachSkill} />;
@@ -48,7 +47,6 @@ class TitleSection extends Component {
         >
           <DownIcon
             icon={data.icons.down}
-            onClick={() => console.log("I'm working")}
           />
         </Link>
         <Element name="bio" className="element" />

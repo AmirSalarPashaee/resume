@@ -21,9 +21,6 @@ class ResearchSection extends Component {
                         <p>{i.content}</p> 
                      </div>;  }
                 )}
-            {console.log(data.section[1].items.content)}
-            {console.log("salamsalamsalam")}
-            
         </div>
           
           
@@ -41,7 +38,6 @@ class ResearchSection extends Component {
 
           <DownIcon
             icon={data.icons.down}
-            onClick={() => console.log("I'm working")}
           />
         </Link>
         <Element name="skills" className="element" />

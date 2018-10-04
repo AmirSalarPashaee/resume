@@ -12,7 +12,10 @@ import DownIcon from "../component/DownIcons";
 class BioSection extends Component {
   render() {
     return (
+      
       <FullStack className="templates fullsspage">
+              {this.props.sn}
+
         <div className="title">{data.section[0].title}</div>
         <div className="contents">
           {data.section[0].items[0].content.split("\n").map(i => {
@@ -32,7 +35,7 @@ class BioSection extends Component {
         >
           <DownIcon
             icon={data.icons.down}
-            onClick={() => console.log("I'm working")}
+           
           />
         </Link>
         <Element name="research" className="element" />
